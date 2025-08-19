@@ -1,0 +1,1773 @@
+*{margin: 0px;
+font-family: Arial, Helvetica, sans-serif;}
+
+/* Header Section */
+
+.banner_container{
+    width: 100%;
+    height: 85vh;
+    background-image: url('images/banner\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(248, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0 0 0;
+    background: transparent; 
+    z-index: 2;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navbar a:hover{
+    transform: scale(1.20);
+    transition: all 0.2s ease;
+    color: whitesmoke;
+    text-shadow: 0cap 0.5em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.brand_name{
+    text-align: center;
+    margin-top: 30px; 
+    margin-bottom: 150px;
+    
+}
+
+.brand_name h1{
+   font-size: 4em;
+    font-weight: bold; 
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.8);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    
+}
+
+.brand_name p{
+     margin-top: 50px; 
+    font-size: 1.5em;
+    font-size: 30px;
+    letter-spacing: 9px;
+    font-weight: 700;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.8);
+
+    
+}
+
+.icon_india{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icon_text{
+    font-size: 2.5em;
+    color:  rgb(32, 32, 32);
+    text-align: center;
+    /* margin-bottom: 50%; */
+}
+
+.flag{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-bottom: 10px;
+
+}
+
+.punch_line{
+    text-align: center;
+    color: #888;
+    font-size: 1.3em;
+    margin: 24px auto 40px auto;
+    max-width: 900px;
+    line-height: 1.5;
+    padding-bottom: 60px;  
+}
+
+/* Main Section */
+
+main{
+  padding-bottom: 50px;
+}
+
+.locations_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 32px;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding-bottom: 80px;
+}
+
+/* Andhra Pradesh Card */
+
+.andhra_card {
+    background: url(images/AP\ card.webp) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 20px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.andhra_text{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fdfbfb;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace; 
+        word-spacing: 30px;
+}
+
+.andhra_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+  
+}
+
+/* Arunachal Pradesh Card */
+
+.arunachal_card {
+    background: url(images/AR\ Card.avif) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.arunachal_text{
+        /* margin-left: 5%; */
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 28px;
+        color: #f1ebeb;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+                           
+}
+
+.arunachal_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Assam Card */
+
+.assam_card {
+    background: url(images/AS\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.assam_text{
+        margin-left: 30%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #f0eaea;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace              
+}
+
+.assam_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Bihar Card */
+
+.bihar_card {
+    background: url(images/BR\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.bihar_text{
+        margin-left: 30%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #f6f3f3;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace ;       
+        letter-spacing: 5px;      
+}
+
+.bihar_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Chhattishgarh Card */
+
+.chhattisgarh_card {
+    background: url(images/CG\ card.jpeg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.chhattisgarh_text{
+        margin-left: 10%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #f8f6f6;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace              
+}
+
+.chhattisgarh_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Goa Card */
+
+.goa_card {
+    background: url(images/GA\ card.webp) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.goa_text{
+        margin-left: 35%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fefafa;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 10px;          
+}
+
+.goa_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Gujrat Card */
+
+.gujrat_card {
+    background: url(images/GJ\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.gujrat_text{
+        margin-left: 25%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #f3eeee;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;      
+        letter-spacing: 10px;
+        
+}
+
+.gujrat_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Haryana Card */
+
+.haryana_card {
+    background: url(images/HR\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.haryana_text{
+        margin-left: 15%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #f5f1f1;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace ;
+        letter-spacing: 10px;
+}
+
+.haryana_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Himachal Pradesh Card */
+
+.himachal_card {
+    background: url(images/HP\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.himachal_text{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 28px;
+        color: #f7f3f3;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace              
+}
+
+.himachal_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Jharkhand Card */
+
+.jharkhand_card {
+    background: url(images/JK\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.jharkhand_text{
+        margin-left: 4%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #f7f6f6;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace  ;
+        letter-spacing: 13px;            
+}
+
+.jharkhand_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Karnataka Card */
+
+.karnataka_card {
+    background: url(images/KA\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.karnataka_text{
+        margin-left: 13%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #f7f5f5;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;             
+}
+
+.karnataka_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Kerala Card */
+
+.kerala_card {
+    background: url(images/KL\ card.jpeg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.kerala_text{
+        margin-left: 20%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #f8f6f6;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 10px;              
+}
+
+.kerala_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Madhya Pradesh Card */
+
+.madhya_card {
+    background: url(images/MP\ card.avif) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.madhya_text{
+        margin-left: 5%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fcfafa;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace              
+}
+
+.madhya_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Maharashtra Card */
+
+.maharashtra_card {
+    background: url(images/MH\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.maharashtra_text{
+        margin-left: 13%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #050505;
+        text-shadow: 2px 2px 3px rgb(250, 248, 248), 4px 4px 6px rgba(248, 241, 241, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace              
+}
+
+.maharashtra_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Manipur Card */
+
+.manipur_card {
+    background: url(images/MN\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.manipur_text{
+        margin-left: 18%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #f9f5f5;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 7px;             
+}
+
+.manipur_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Meghalaya Card */
+
+.meghalaya_card {
+    background: url(images/ML\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.meghalaya_text{
+        margin-left: 12%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #faf9f9;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.meghalaya_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Mizoram Card */
+
+.mizoram_card {
+    background: url(images/MZ\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.mizoram_text{
+        margin-left: 18%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #faf8f8;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.mizoram_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Nagaland Card */
+
+.nagaland_card {
+    background: url(images/NL\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.nagaland_text{
+        margin-left: 10%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #040404;
+        text-shadow: 2px 2px 3px rgb(252, 250, 250), 4px 4px 6px rgba(250, 248, 248, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 10px;              
+}
+
+.nagaland_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgb(253, 253, 253), 0 12px 36px rgba(252, 251, 251, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Odisha Card */
+
+.odisha_card {
+    background: url(images/OD\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.odisha_text{
+        margin-left: 25%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fdfafa;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.odisha_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Punjab Card */
+
+.punjab_card {
+    background: url(images/PB\ card.jpeg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.punjab_text{
+        margin-left: 25%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #080808;
+        text-shadow: 2px 2px 3px rgb(253, 252, 252), 4px 4px 6px rgba(254, 253, 253, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.punjab_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgb(11, 11, 11), 0 12px 36px rgba(7, 7, 7, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+
+/* Rajasthan Card */
+
+.rajasthan_card {
+    background: url(images/RJ\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.rajasthan_text{
+        margin-left: 13%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #faf7f7;
+        text-shadow: 2px 2px 3px rgb(9, 9, 9), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.rajasthan_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Sikkim Card */
+
+.sikkim_card {
+    background: url(images/SK\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.sikkim_text{
+        margin-left: 23%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fefdfd;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;  
+        letter-spacing: 5px;            
+}
+
+.sikkim_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Tamil Nadu Card */
+
+.tamil_card {
+    background: url(images/TN\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.tamil_text{
+        margin-left: 8%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fdfcfc;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 1), 4px 4px 6px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.tamil_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+/* Telangana Card */
+
+.telangana_card {
+    background: url(images/TL\ card.webp) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.telangana_text{
+        margin-left: 10%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fbfafa;
+        text-shadow:  2px 2px 3px rgb(8, 8, 8), 4px 4px 6px rgba(8, 8, 8, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 8px;              
+}
+
+.telangana_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Tripura Card */
+
+.tripura_card {
+    background: url(images/TR\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.tripura_text{
+        margin-left: 20%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fcfcfc;
+        text-shadow: 2px 2px 3px rgb(8, 8, 8), 4px 4px 6px rgba(8, 8, 8, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.tripura_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Uttarakhand Card */
+
+.uttarakhand_card {
+    background: url(images/UK\ card.png) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.uttarakhand_text{
+        margin-left: 5%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fbfbfb;
+        text-shadow: 2px 2px 3px rgb(8, 8, 8), 4px 4px 6px rgba(8, 8, 8, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.uttarakhand_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Uttar Pradesh */
+
+.uttar_card {
+    background: url(images/UP\ card.avif) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.uttar_text{
+        margin-left: 8%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #050505;
+        text-shadow: 2px 2px 3px rgb(250, 248, 248), 4px 4px 6px rgba(254, 252, 252, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;           
+}
+
+.uttar_card:hover {
+  transform: scale(1.05);
+  box-shadow:  0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* West Bengal Card */
+
+.westbengal_card {
+    background: url(images/WB\ card.jpeg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.westbengal_text{
+        margin-left: 5%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fffefe;
+        text-shadow: 2px 2px 3px rgb(8, 8, 8), 4px 4px 6px rgba(11, 11, 11, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.westbengal_card:hover {
+  transform: scale(1.05);
+  box-shadow:  0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Andaman & Nicobar Islands card */
+
+.andaman_card {
+    background: url(images/ANI\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.andaman_text{
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 19px;
+        color: #fdfbfb;
+        text-shadow: 2px 2px 3px rgb(8, 8, 8), 4px 4px 6px rgba(11, 11, 11, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace              
+}
+
+.andaman_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Daman & Diu card */
+
+.daman-diu_card {
+    background: url(images/DD\ card.avif) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.daman-diu_text{
+        margin-left: 15%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fbfafa;
+        text-shadow: 2px 2px 3px rgb(8, 8, 8), 4px 4px 6px rgba(11, 11, 11, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace              
+}
+
+.daman-diu_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Jammu & Kashmir Card */
+
+.j-k_card {
+    background: url(images/J&K\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.j-k_text{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fcfcfc;
+        text-shadow:  2px 2px 3px rgb(8, 8, 8), 4px 4px 6px rgba(11, 11, 11, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+}
+
+.j-k_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Lakshadweep */
+
+.lakshadweep_card {
+    background: url(images/LD\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.lakshadweep_text{
+        margin-left: 7%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fcfcfc;
+        text-shadow: 2px 2px 3px rgb(8, 8, 8), 4px 4px 6px rgba(11, 11, 11, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.lakshadweep_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Candigarh Card */
+
+.chandigarh_card {
+    background: url(images/CH\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.chandigarh_text{
+        margin-left: 10%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fcfafa;
+        text-shadow: 2px 2px 3px rgb(8, 8, 8), 4px 4px 6px rgba(11, 11, 11, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.chandigarh_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Delhi Card */
+
+.delhi_card {
+    background: url(images/DL\ card.jpg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.delhi_text{
+        margin-left: 27%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #faf8f8;
+        text-shadow: 2px 2px 3px rgb(6, 6, 6), 4px 4px 6px rgba(8, 8, 8, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 8px;              
+}
+
+.delhi_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Ladakh Card */
+
+.ladakh_card {
+    background: url(images/LK\ \ card.jpeg) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.ladakh_text{
+        margin-left: 22%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fcfbfb;
+        text-shadow: 2px 2px 3px rgb(6, 6, 6), 4px 4px 6px rgba(8, 8, 8, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        letter-spacing: 5px;              
+}
+
+.ladakh_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+/* Puducherry Card */
+
+.puducherry_card {
+    background: url(images/PY\ card.webp) center/cover no-repeat, #fff;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.50);
+    padding: 24px 40px;
+    font-size: 1.3em;
+    color: #333;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.puducherry_text{
+        margin-left: 10%;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 30px;
+        color: #fefefe;
+        text-shadow: 2px 2px 3px rgb(6, 6, 6), 4px 4px 6px rgba(8, 8, 8, 0.7);
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace ;  
+        letter-spacing: 3px;          
+}
+
+.puducherry_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 1), 0 12px 36px rgba(0, 0, 0, 0.4);
+  transition:  box-shadow 0.3s ease;
+}
+
+.line_shadow {
+  width: 100%;
+  height: 24px;
+  box-shadow: 0 -12px 32px -8px rgba(0,0,0,0.12);
+  background: transparent;
+  border-radius: 0 0 12px 12px;
+}
+
+
+
+
+/* LOGO CONTAINER IN BETWEEN FOOTER AND MAIN CONTENT */
+
+.circle-logo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  margin-bottom: -300px; /* Pulls the circle into the footer */
+}
+
+.circle-logo img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  border: 4px solid #888; /* Matches footer color */
+  position: relative;
+  top: -80px; /* Pulls the circle upward into the white section */
+}
+
+
+
+/* Footer section */
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Push content to bottom */
+  background-color: #888;
+  height: 400px;
+  border-radius: 50px 50px 0px 0px;
+  padding-bottom: 30px;   /*Adds space from bottom edge*/
+}
+
+.footer-content {
+  text-align: center;
+  
+}
+
+.social-links {
+  margin-top: 10px;
+
+}
+
+.link {
+  max-width: 25px;
+  height: auto;
+  display: inline-block;
+  margin: 0 10px;
+  
+}
+
+.admin{
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+/* Footer Container */
+
+
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background-color: #888;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_nav a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.footer_nav a:hover{
+  color: lightblue;
+}
+
+
+.footer_heading{
+  color: #fff;
+  background-color: #888;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer_location {
+  background-color: #888;
+  padding: 30px 0px 40px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.location_set_1{
+ gap: 10px;
+ flex-direction: column;
+ display: flex;
+}
+
+.location_set_1 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_1 a:hover{
+  color: lightblue;
+}
+
+.location_set_2{
+   gap: 10px;
+   flex-direction: column;
+   display: flex;  
+}
+
+.location_set_2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_2 a:hover{
+  color: lightblue;
+}
+
+.location_set_3{
+   gap: 10px;
+   flex-direction: column;
+   display: flex;
+}
+
+.location_set_3 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_3 a:hover{
+  color: lightblue;
+}
+
+
+.location_set_4{
+   gap: 10px;
+   flex-direction: column;
+   display: flex;
+}
+
+.location_set_4 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_4 a:hover{
+  color: lightblue;
+}
+
+.location_set_5{
+   flex-direction: column;
+    gap: 10px;
+   display: flex;
+}
+
+.location_set_5 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_5 a:hover{
+  color: lightblue;
+}
+
+.location_set_6{
+   gap: 10px;
+   flex-direction: column;
+   display: flex;
+}
+
+.location_set_6 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_6 a:hover{
+  color: lightblue;
+}
+
+.location_set_7{
+   gap: 10px;
+   flex-direction: column;
+    display: flex;
+}
+
+.location_set_7 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_7 a:hover{
+  color: lightblue;
+}
+
+

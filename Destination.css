@@ -1,0 +1,1223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*---------------------- Header Section -------------------------- */
+
+.banner_container {
+  height: 65vh;
+  width: 100%;
+  background-image: url('images/Destination_banner.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(248, 245, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.brand_name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 285px;
+  width: 100%;
+  color: #333;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.brand_name a {
+  text-decoration: none;
+  color: #333;
+}
+
+.brand_name .tagline {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #333;
+  font-size: 30px;
+}
+
+.tagline2 {
+  font-size: 1.8rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+
+/* --------------------------------Main Section------------------------------------ */
+
+    
+.packages {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 90px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 10%;
+}
+
+/* Card Section */
+
+.card_row {
+  display: flex;
+  justify-content: center;
+  gap: 30px; 
+  flex-wrap: wrap; 
+}
+
+
+.card-content {
+  margin-top: 70px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-transform: uppercase;
+  
+}
+
+.card-content a{
+  text-decoration: none;
+  color: #333;
+}
+
+.card-content a:hover {
+  color: lightcoral;
+}
+
+.book-btn,
+.enquiry-btn {
+  position: absolute;
+  bottom: 15px;
+  padding: 8px 14px;
+  font-size: 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.3s ease;
+ 
+}
+
+.book-btn {
+  left: 15px;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+
+}
+
+.book-btn:hover {
+  background: linear-gradient(135deg, #ee0979, #ff6a00);
+}
+
+.enquiry-btn {
+  right: 15px;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.enquiry-btn:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+}
+
+
+/* Card Styles for button issue  */
+.card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-size: cover;
+  background-position: center;
+  position: relative;                 /*  button issue fixer*/
+  margin-bottom: 5%;
+}
+
+
+
+/*  Andhra Pradesh Card */
+
+.andhra_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Vizag\ Destinations.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+  
+  
+}
+
+.andhra_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Arunachal Pradesh Card */
+
+.arunachal_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Arunachal\ Destination.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.arunachal_card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Assam card */
+
+.assam_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Assam\ Destination.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.assam_card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Bihar Card */
+
+.bihar_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Bihar\ Destination.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.bihar_card:hover {
+  transform: translateY(-8px);
+}
+
+/* Chhattisgarh Card */
+
+.chhattisgarh_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Chattishgarh\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.chhattisgarh_card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Goa Card */
+
+.goa_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Goa\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.goa_card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Gujrat Card */
+
+.gujrat_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Gujrat\ Desination.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.gujrat_card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Haryana Card */
+
+.haryana_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Haryana\ Destinations.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.haryana_card:hover {
+  transform: translateY(-8px);
+}
+
+/* Himachal Pradesh Card */
+
+.himachal_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Himachal\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.himachal_card:hover {
+  transform: translateY(-8px);
+}
+
+/* Jharkhand Card */
+
+.jharkhand_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Jharkhand\ Destination.avif);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.jharkhand_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Karnataka Card */
+
+.karnataka_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Karnataka\ Destinations.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.karnataka_card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Kerala Card */
+
+.kerala_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Kerala\ Destination.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.kerala_card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Madhya Pradesh Card */
+
+.madhya_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Madhya\ Pradesh\ Destination.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.madhya_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Maharashtra Card */
+
+.maharashtra_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Maharastra\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.maharashtra_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Manipur Card */
+
+.manipur_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Manipur\ Destination.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.manipur_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Meghalaya Card */
+
+.meghalaya_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Meghalaya\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.meghalaya_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Mizoram Card */
+
+.mizoram_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Mizoram\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.mizoram_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Nagaland Card */
+
+.nagaland_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Nagaland\ Destination.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.nagaland_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Odisha Card */
+
+.odisha_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Odisha\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.odisha_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Punjab Card */
+
+.punjab_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Punjab\ Destination.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.punjab_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Rajasthan Card */
+
+.rajasthan_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Rajasthan\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.rajasthan_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Sikkim Card */
+
+.sikkim_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Sikkim\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.sikkim_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Tamil Nadu Card */
+
+.tamilnadu_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Tamil\ Nadu\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.tamilnadu_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Telangana Card */
+
+.telangana_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Telangana\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.telangana_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Tripura Card */
+
+.tripura_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Tripura\ Destination.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.tripura_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Uttarakhand Card */
+
+.uttarakhand_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Uttrakhand\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.uttarakhand_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Uttar Pradesh Card */
+
+.uttarpradesh_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Uttar\ Pradesh\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.uttarpradesh_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* West Bengal Card */
+
+.westbengal_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/West\ Bengal\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.westbengal_card:hover {
+  transform: translateY(-8px);
+}
+
+
+/* Andaman & Nicobar Card  */
+
+.andaman_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Andaman\ Destination.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.andaman_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Daman & Diu Card  */
+
+.daman_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Daman&diu\ Destinations.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.daman_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Jammu & Kashmir Card */
+
+.jammu_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Jammu\ &\ Kashmir\ Destination.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.jammu_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Lakshadweep Card */
+
+.lakshadweep_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Lakshadweep\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.lakshadweep_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Chandigarh Card */
+.chandigarh_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Chandigarh\ Destination.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.chandigarh_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Delhi Card */
+.delhi_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Delhi\ Destination.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.delhi_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Ladakh Card */
+.ladakh_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Ladakh\ DEstination.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.ladakh_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+/* Puducherry Card */
+.puducherry_card {
+  width: 300px;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(images/Puducherry\ Destinations.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.puducherry_card:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+
+/* LOGO CONTAINER IN BETWEEN FOOTER AND MAIN CONTENT */
+
+.circle-logo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  margin-bottom: -300px; /* Pulls the circle into the footer */
+}
+
+.circle-logo img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  border: 4px solid #888; /* Matches footer color */
+  position: relative;
+  top: -80px; /* Pulls the circle upward into the white section */
+  margin-top: 20%;
+}
+
+.circle-logo a:hover img {
+  transform: scale(1.07);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45);
+
+}
+
+
+
+/* Footer section */
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Push content to bottom */
+  background-color: #888;
+  height: 400px;
+  border-radius: 50px 50px 0px 0px;
+  padding-bottom: 30px;   /*Adds space from bottom edge*/
+}
+
+.footer-content {
+  text-align: center;
+  
+}
+
+.social-links {
+  margin-top: 10px;
+
+}
+
+.link {
+  max-width: 25px;
+  height: auto;
+  display: inline-block;
+  margin: 0 10px;
+  
+}
+
+.admin{
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+/* Footer Container */
+
+
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background-color: #888;
+}
+
+.footer_nav{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_nav a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.footer_nav a:hover{
+  color: lightblue;
+}
+
+
+.footer_heading{
+  color: #fff;
+  background-color: #888;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer_location {
+  background-color: #888;
+  padding: 30px 0px 40px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.location_set_1{
+ gap: 10px;
+ flex-direction: column;
+ display: flex;
+}
+
+.location_set_1 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_1 a:hover{
+  color: lightblue;
+}
+
+.location_set_2{
+   gap: 10px;
+   flex-direction: column;
+   display: flex;  
+}
+
+.location_set_2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_2 a:hover{
+  color: lightblue;
+}
+
+.location_set_3{
+   gap: 10px;
+   flex-direction: column;
+   display: flex;
+}
+
+.location_set_3 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_3 a:hover{
+  color: lightblue;
+}
+
+
+.location_set_4{
+   gap: 10px;
+   flex-direction: column;
+   display: flex;
+}
+
+.location_set_4 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_4 a:hover{
+  color: lightblue;
+}
+
+.location_set_5{
+   flex-direction: column;
+    gap: 10px;
+   display: flex;
+}
+
+.location_set_5 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_5 a:hover{
+  color: lightblue;
+}
+
+.location_set_6{
+   gap: 10px;
+   flex-direction: column;
+   display: flex;
+}
+
+.location_set_6 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_6 a:hover{
+  color: lightblue;
+}
+
+.location_set_7{
+   gap: 10px;
+   flex-direction: column;
+    display: flex;
+}
+
+.location_set_7 a{
+  text-decoration: none;
+  color: white;
+}
+
+.location_set_7 a:hover{
+  color: lightblue;
+}
+
+
